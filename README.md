@@ -4,7 +4,7 @@
 
 2. Секретную инфу хранить тут: `personal.auto.tfvars`
 3. Ключ: `result`, значение: `ZFn8kDESeuZRIiXI`
-4. ОшибкиЖ
+4. Ошибки
   - У ресурса с докером не было названия
   - У ресурса с nginx неправильное имя - надо начинать с буквы или _
   - Опечатки в обращении к "random_password" "random_string"
@@ -40,7 +40,7 @@ resource "docker_image" "nginx" {
 ```
 
 ## Задание 2
-Файл с кодом - https://github.com/erant-netology-courses/ter_homework_01/blob/main/main.tf
+Файл с кодом - https://github.com/erant-netology-courses/ter_homework_01/blob/main/main.tf  (докер все таки пришлось добавить в path)
 
 ## Задание 3
 Попробовал, получил много ошибок)
