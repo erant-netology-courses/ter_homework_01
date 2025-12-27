@@ -38,3 +38,9 @@ resource "docker_image" "nginx" {
   keep_locally = true
 }
 ```
+
+## Задание 2
+Файл с кодом - https://github.com/erant-netology-courses/ter_homework_01/blob/main/main.tf
+
+## Задание 3
+Попробовал, получил много ошибок)
